@@ -43,7 +43,11 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'djoser',
+    'tests',
 ]
+# settings.py
+TEST_RUNNER = 'django.test.runner.DiscoverRunner'
+
 
 REST_FRAMEWORK = {
     # Other settings...
